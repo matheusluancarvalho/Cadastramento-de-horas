@@ -8,9 +8,6 @@ from arquivo import Dados
 import time
 
 
-# isd = Arquivo(3)
-# print(isd.retornaId()) Capitan medi
-
 servico = Service(ChromeDriverManager().install())
 navegador = webdriver.Chrome()
 actions = ActionChains(navegador)
